@@ -1,0 +1,19 @@
+[project]
+name = "mcp-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdullah-1121", email = "muhammad11abdullah21@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mcp>=1.12.1",
+]
+
+[project.scripts]
+mcp-tutorial = "mcp_tutorial:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
